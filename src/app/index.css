@@ -1,0 +1,32 @@
+:root {
+  --bgcolor: rgb(75, 74, 74);
+  --txtcolor: rgb(219, 211, 211);
+}
+
+body {
+  background-color: var(--bgcolor);
+  color: var(--txtcolor);
+}
+
+.search-area {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-results {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.search-element {
+  /* height: 100px; */
+  width: 80%;
+  /* color: white; */
+  padding: 1rem;
+  background-color: black;
+}
