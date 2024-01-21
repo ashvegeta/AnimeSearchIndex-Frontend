@@ -28,11 +28,11 @@ export default async function SearchAnime(searchTxt) {
               },
             },
           },
-          {
-            $sort: {
-              meanScoreAni: -1,
-            },
-          },
+          // {
+          //   $sort: {
+          //     meanScoreAni: -1,
+          //   },
+          // },
           {
             $limit: 10,
           },
